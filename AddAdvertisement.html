@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Add Advertisement</title>
+    <link rel="stylesheet" href="./Assets/CSS/AddAdvertisement.css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+
+<body>
+    <!-- TOP NAVIGATION BAR SECTION -->
+    <header>
+        <figure class="brand"><img src="./Assets/Images/logo.png" alt="" class="header-logo"></figure>
+        <nav class="menu">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./ViewAdvertisements.html">
+                    <li>View Advertisements</li>
+                </a>
+                <a href="./AddAdvertisement.html">
+                    <li>Add Advertisements</li>
+                </a>
+                <a href="./index.html">
+                    <li>Login</li>
+                </a>
+                <a href="./index.html">
+                    <li>Register</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <!-- TOP NAVIGATION BAR SECTION -->
+    <form action="" class="add-advertisement-form clear-both">
+        <h1 class="heading">Add Advertisement</h1>
+        <div class="fields-group">
+            <input type="text" name="Title" id="Title" placeholder="Advertisement Title">
+        </div>
+
+        <div class="fields-group">
+            <textarea name="Details" placeholder="Advertisement Details..."></textarea>
+        </div>
+
+        <div class="fields-group">
+            <div class="label-container">
+                <label for="Date"> DATE: </label>
+            </div>
+            <div class="field-container">
+                <input type="date" name="" id="">
+            </div>
+        </div>
+
+        <div class="fields-group">
+            <input type="number" name="Price" min="0" id="Price" placeholder="Price">
+        </div>
+
+        <div class="fields-group">
+            <input type="text" name="CategoryID" id="CategoryID" placeholder="Category ID">
+        </div>
+
+        <div class="fields-group">
+            <input type="text" name="UserID" id="UserID" placeholder="User ID">
+        </div>
+
+        <div class="fields-group">
+            <input type="text" name="ModeratorID" id="ModeratorID" placeholder="Moderator ID">
+        </div>
+
+        <div class="fields-group">
+            <input type="text" name="StatusID" id="StatusID" placeholder="Status ID">
+        </div>
+
+        <div class="fields-group">
+            <input type="submit" class="submit-button" value="ADD ADVERTISEMENT">
+        </div>
+    </form>
+</body>
+
+</html>
